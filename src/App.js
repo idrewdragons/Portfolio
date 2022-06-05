@@ -1,8 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Narbar from './components/Narbar';
 
 function App() {
-  return <h1>I am never getting a remote dev job am I?</h1>;
+  return <Narbar />
 }
 
 export default App;
