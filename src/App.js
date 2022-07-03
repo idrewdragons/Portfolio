@@ -1,9 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Narbar from './components/Narbar';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 function App() {
-  return <Narbar />
+  return (
+    <>
+      <Navbar />
+      <Header />
+    </>
+  );
 }
 
 export default App;

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 /****************************** Nav_Bar****************************/
 
 nav a.nav-link {
@@ -5,9 +6,8 @@ nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
   text-transform: uppercase;
-  margin: .75rem  1.85rem 0 1.85rem;
+  margin: 0.30rem 1.85rem 0 1.85rem;
 }
-
 
 .nav-link:hover {
   font-size: 0;
@@ -19,8 +19,142 @@ nav a.nav-link {
 }
 
 .logo {
-  width: 250px;
+  width: 150px;
   margin: 10px 0 0 10px;
 }
 
+/****************************** header ****************************/
+.header-wrap{
+  margin-top: 30px;
+}
+.picture_self {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 350px;
+  border: solid;
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  box-shadow: 0 0 8px rgba(59, 121, 41, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(5, 9, 6, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.429);
+}
 
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h2{
+  margin-top: 50;
+  font-weight: 100;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 0.30rem 1.85rem 0 1.85rem;
+}
+
+
+/****************************** type-text ****************************/
+
+.typed-text{
+
+}
+
+
+
+/****************************** button****************************/
+
+.btn-main{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-contact {
+  margin-right: 25px;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.btn-contact:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.btn-contact:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.btn-resume {
+  margin-left: 25px;
+   background-color: #fff;
+   background-image: none;
+   background-position: 0 90%;
+   background-repeat: repeat no-repeat;
+   background-size: 4px 3px;
+   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+   border-style: solid;
+   border-width: 2px;
+   box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+   box-sizing: border-box;
+   color: #41403e;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 1rem;
+   line-height: 23px;
+   outline: none;
+   padding: .75rem;
+   text-decoration: none;
+   transition: all 235ms ease-in-out;
+   border-bottom-left-radius: 15px 255px;
+   border-bottom-right-radius: 225px 15px;
+   border-top-left-radius: 255px 15px;
+   border-top-right-radius: 15px 225px;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   font-family: 'Shadows Into Light', cursive;
+ }
+ 
+ .btn-resume:hover {
+   box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+   transform: translate3d(0, 2px, 0);
+ }
+ 
+ .btn-resume:focus {
+   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+ }
+   

@@ -3,7 +3,7 @@ import logo from '../logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-const Narbar = () => {
+const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light'>
       <div className='container'>
@@ -26,15 +26,8 @@ const Narbar = () => {
             <a className='nav-link' data-hover='約' href='#'>
               about
             </a>
-
-            <a className='nav-link' data-hover='履歴書' href='#'>
-              resume
-            </a>
             <a className='nav-link' data-hover='プロジェクト' href='#'>
               projects
-            </a>
-            <a className='nav-link' data-hover='連絡先' href='#'>
-              contacts
             </a>
           </div>
         </div>
@@ -43,4 +36,4 @@ const Narbar = () => {
   );
 };
 
-export default Narbar;
+export default Navbar;
